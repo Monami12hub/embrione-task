@@ -5,7 +5,7 @@ export default function MemberCard({ member }) {
   } = member;
 
   return (
-    <div className="group rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-purple-500/60 hover:shadow-lg hover:shadow-purple-500/10">
+    <div className="group rounded-3xl border border-white/10 bg-gradient-to-b from-white/10 to-white/5 p-6 backdrop-blur transition duration-300 hover:-translate-y-2 hover:border-purple-400/60 hover:shadow-2xl hover:shadow-purple-500/20">
       <div className="flex items-center gap-4">
         {photo_url ? (
           <img

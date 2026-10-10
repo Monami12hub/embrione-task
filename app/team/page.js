@@ -33,12 +33,12 @@ export default function TeamPage() {
 
   return (
     <div className="space-y-8">
-      <div>
-        <h1 className="text-3xl font-bold">
-          Meet The <span className="text-purple-400">Team</span>
-        </h1>
-        <p className="mt-1 text-neutral-400">The people behind The Embrione.</p>
-      </div>
+      <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur">
+  <h1 className="text-4xl font-extrabold sm:text-5xl">
+    Meet The <span className="text-purple-400">Team</span>
+  </h1>
+  <p className="mt-2 text-neutral-300">The people behind The Embrione.</p>
+</div>
 
       <div className="flex flex-wrap gap-3">
         <select value={domain} onChange={(e) => setDomain(e.target.value)} className={selectCls}>
